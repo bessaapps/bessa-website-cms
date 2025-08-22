@@ -397,6 +397,7 @@ export interface ApiInterviewInterview extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     Profile: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     publishedAt: Schema.Attribute.DateTime;
+    Slug: Schema.Attribute.String;
     Title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

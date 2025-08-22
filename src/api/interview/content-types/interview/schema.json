@@ -34,6 +34,9 @@
     "Title": {
       "type": "string"
     },
+    "Slug": {
+      "type": "string"
+    },
     "Content": {
       "type": "blocks"
     }
