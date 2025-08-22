@@ -34,11 +34,20 @@
     "Title": {
       "type": "string"
     },
-    "Slug": {
+    "Summary": {
+      "type": "blocks"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Position": {
       "type": "string"
     },
     "Content": {
       "type": "blocks"
+    },
+    "Slug": {
+      "type": "string"
     }
   }
 }
