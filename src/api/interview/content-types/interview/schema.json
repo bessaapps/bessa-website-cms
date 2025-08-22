@@ -48,6 +48,15 @@
     },
     "Slug": {
       "type": "string"
+    },
+    "SocialHandle": {
+      "type": "string"
+    },
+    "SocialURL": {
+      "type": "string"
+    },
+    "Website": {
+      "type": "string"
     }
   }
 }

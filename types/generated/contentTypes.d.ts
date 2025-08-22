@@ -400,11 +400,14 @@ export interface ApiInterviewInterview extends Struct.CollectionTypeSchema {
     Profile: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     publishedAt: Schema.Attribute.DateTime;
     Slug: Schema.Attribute.String;
+    SocialHandle: Schema.Attribute.String;
+    SocialURL: Schema.Attribute.String;
     Summary: Schema.Attribute.Blocks;
     Title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    Website: Schema.Attribute.String;
   };
 }
 
